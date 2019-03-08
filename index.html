@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style>
+      /* .box {
+        text-align: center;
+      }*/
+      .box-container {
+        width: 100px;
+        height: 100px;
+        background: #ddd;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+    576px and up: sm
+    768px and up: md
+    992px and up: lg
+    1200px and up: xl
+    -->
+    <div class="container">
+      <div class="row">
+        <div class="col-10 bg-primary">Responsive1-10</div>
+        <div class="col-2 bg-secondary">Responsive1-2</div>
+      </div>
+      <div class="row">
+        <div class="col-10 col-md-2 bg-primary">Responsive2-Flip</div>
+        <div class="col-2 col-md-10 bg-secondary">Responsive2-Flip</div>
+      </div>
+      <div class="row">
+        <div class="col-10 bg-primary">Responsive3-erase</div>
+        <div class="col-2 d-md-none bg-secondary">Responsive3-erase</div>
+      </div>
+      <div class="row">
+        <div class="col-10 bg-primary">Responsive4-put</div>
+        <div class="d-none d-md-block col-2 bg-secondary">Responsive4-put</div>
+      </div>
+      <div class="row">
+        <div class="col bg-primary">Grid layout1-1</div>
+        <div class="col bg-secondary">Grid layout1-2</div>
+        <div class="col bg-info">Grid layout1-3</div>
+      </div>
+      <div class="row">
+        <div class="col bg-danger">Grid layout2-1</div>
+        <div class="col bg-warning">Grid layout2-2</div>
+        <div class="col bg-dark">Grid layout2-3</div>
+      </div>
+      <div class="row">
+        <div class="col-8 bg-primary">Grid layout3-1</div>
+        <div class="col-4 bg-secondary">Grid layout3-2</div>
+      </div>
+      <div class="row">
+        <div class="col-4 bg-danger">Grid layout4-1</div>
+        <div class="col-6 bg-warning">Grid layout4-2</div>
+        <div class="col-2 bg-dark">Grid layout4-3</div>
+      </div>
+      <div class="row">
+        <div class="col-8 bg-primary">Grid layout5-1</div>
+        <div class="col-1 bg-secondary">Grid layout5-2</div>
+      </div>
+      <div class="row">
+        <div class="col-4 bg-danger">Grid layout6-1</div>
+        <div class="col-6 bg-warning">Grid layout6-2</div>
+        <div class="col-6 bg-dark">Grid layout6-3</div>
+      </div>
+    </div>
+    <button class="btn btn-primary">Botton</button>
+    <button class="btn btn-info btn-sm">Botton</button>
+    <button class="btn btn-danger btn-lg">Botton</button>
+    <!-- <div class="box"></div> -->
+    <h2 class="font-weight-normal display-4">Text styling</h2>
+    <div class="text-center bg-primary">要素color</div>
+    <div class="text-center bg-success text-warning">要素color</div>
+    <div class="text-center bg-info">要素color</div>
+    <div class="text-center bg-dark text-light">要素color</div>
+
+    <!--
+    [p|m][location]-[size]
+
+    location:
+    - t, b, l, r
+    - x, y
+
+    size:
+    - 0
+    - 1: 0.25rem
+    - 2: 0.5rem
+    - 3: 1.0rem
+    - 4: 1.5rem
+    - 5: 3.0rem
+    - auto
+    -->
+
+    <div class="box-container">
+      <div class="bg-primary w-25 h-50 pt-3">size,padding</div>
+    </div>
+
+    <div class="box-container">
+      <div class="bg-success w-75 h-100 my-0 mx-auto">size,margin</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
